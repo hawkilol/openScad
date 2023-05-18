@@ -15,7 +15,7 @@ cubeTopInDiffHollow = [width- 5, depth-5, heigth/4 +1];
 cubeInDiff = [width- 3, depth -3, heigth];
 
 
-cubeUsb = [width/2, depth/3 -1, heigth/3];
+cubeUsb = [width/2 + 2.5, depth/3 -0.5, heigth/4 + 0.5];
 //Caixa
 cubeDHT = [width/2 - 3, depth/2 -1, heigth/3];
 $fn=50;
@@ -74,7 +74,7 @@ translate([0,0,0,0]){
     }
     
    
-    translate([9,0,1]){
+    translate([10,0,6]){
         cube(cubeUsb, center=true);
         
         
